@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #2f3b51;
+    color: white;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section .icon {
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffb3;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section .icon {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    background-color: #3b4252;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .user-name {
+    margin-right: 10px;
+  }
+  
+  .user-avatar {
+    background-color: #4c566a;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
